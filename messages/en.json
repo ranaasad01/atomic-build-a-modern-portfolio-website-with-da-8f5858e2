@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Let's Talk"
+  },
+  "footer": {
+    "navHeading": "Navigation",
+    "contactHeading": "Get in Touch",
+    "contactBody": "Have a project in mind or want to collaborate? I'd love to hear from you.",
+    "contactCta": "Send me a message",
+    "copyright": "© 2024 Alex Rivera. All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "hero": {
+    "cta_primary": "View My Work",
+    "cta_secondary": "Get in Touch",
+    "eyebrow": "Welcome to My Portfolio",
+    "find_me": "Find me on",
+    "headline1": "Crafting digital experiences",
+    "headline2": "that inspire and convert",
+    "scroll": "Scroll to explore",
+    "subhead": "Designer and developer focused on elegant, functional interfaces."
+  },
+  "featured-projects": [
+    {
+      "title": "Luminary",
+      "description": "AI-powered content scheduling SaaS. Built the full-stack MVP in 8 weeks using Next.js, Prisma, and OpenAI. Reached 1,200 beta users before public launch.",
+      "tags": "Next.js · TypeScript · PostgreSQL · OpenAI"
+    },
+    {
+      "title": "Orbit Design System",
+      "description": "A component library and token system adopted across 4 internal products at a Series B startup. Reduced UI inconsistencies by 70% and cut design-to-dev handoff time in half.",
+      "tags": "React · Storybook · Figma Tokens · Tailwind CSS"
+    },
+    {
+      "title": "TrailSync",
+      "description": "A real-time GPS trail-tracking app for hikers with offline-first architecture. Handles 10k concurrent sessions with sub-200ms sync latency.",
+      "tags": "React Native · Supabase · MapLibre · PWA"
+    },
+    {
+      "title": "Folio CMS",
+      "description": "A headless CMS built for creative agencies, featuring a drag-and-drop block editor and multi-tenant architecture. Deployed to 30+ agency clients.",
+      "tags": "Node.js · GraphQL · MongoDB · React"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": "React, Next.js, TypeScript, Tailwind CSS, Framer Motion, Three.js"
+    },
+    {
+      "category": "Backend",
+      "items": "Node.js, Express, GraphQL, REST APIs, Prisma, tRPC"
+    },
+    {
+      "category": "Databases",
+      "items": "PostgreSQL, MongoDB, Redis, Supabase, PlanetScale"
+    },
+    {
+      "category": "DevOps & Cloud",
+      "items": "Vercel, AWS (EC2, S3, Lambda), Docker, GitHub Actions, CI/CD"
+    },
+    {
+      "category": "Design & Tooling",
+      "items": "Figma, Storybook, Radix UI, Adobe Creative Suite"
+    },
+    {
+      "category": "Testing",
+      "items": "Vitest, Playwright, Jest, React Testing Library"
+    }
+  ],
+  "cta": {
+    "body": "Ready to start your next project? Let's collaborate and bring your ideas to life.",
+    "button": "Start a Project",
+    "eyebrow": "Next Steps",
+    "heading": "Let's Work Together",
+    "location_prefix": "Based in"
+  },
+  "project-filters": [
+    {
+      "label": "All",
+      "description": "Browse the full collection"
+    },
+    {
+      "label": "Web Apps",
+      "description": "Full-stack and frontend applications"
+    },
+    {
+      "label": "UI/UX Design",
+      "description": "Interfaces, prototypes, and design systems"
+    },
+    {
+      "label": "Open Source",
+      "description": "Public repos and community contributions"
+    },
+    {
+      "label": "React",
+      "description": "Projects built with React or Next.js"
+    },
+    {
+      "label": "TypeScript",
+      "description": "Strongly typed codebases"
+    },
+    {
+      "label": "Node.js",
+      "description": "Server-side and API projects"
+    },
+    {
+      "label": "Design Systems",
+      "description": "Component libraries and style guides"
+    }
+  ],
+  "projects-grid": [
+    {
+      "title": "Luminary",
+      "description": "A real-time collaborative whiteboard app built with Next.js 14, Liveblocks, and Tailwind CSS. Supports multiplayer cursors, sticky notes, and shape drawing with sub-100ms sync.",
+      "technologies": "Next.js, TypeScript, Liveblocks, Tailwind CSS",
+      "category": "Web Apps",
+      "featured": true
+    },
+    {
+      "title": "Prism Design System",
+      "description": "A comprehensive component library with 60+ accessible components, dark/light theming, and Storybook documentation. Adopted by three internal product teams within the first month.",
+      "technologies": "React, TypeScript, Radix UI, Storybook",
+      "category": "Design Systems",
+      "featured": true
+    },
+    {
+      "title": "Orbit Analytics",
+      "description": "A SaaS dashboard for tracking product metrics with customisable widgets, CSV export, and role-based access control. Reduced reporting time by 40% for beta users.",
+      "technologies": "Next.js, Prisma, PostgreSQL, Recharts",
+      "category": "Web Apps",
+      "featured": false
+    },
+    {
+      "title": "Nocturne",
+      "description": "A minimal Markdown-based note-taking app with local-first storage, end-to-end encryption, and a distraction-free writing mode. Built as a PWA with offline support.",
+      "technologies": "React, IndexedDB, Web Crypto API, Vite",
+      "category": "Web Apps",
+      "featured": false
+    },
+    {
+      "title": "Threadline",
+      "description": "An open-source CLI tool for generating structured git commit messages using conventional commits and AI-assisted suggestions. 1.2k stars on GitHub.",
+      "technologies": "Node.js, TypeScript, OpenAI API",
+      "category": "Open Source",
+      "featured": false
+    },
+    {
+      "title": "Folio",
+      "description": "A drag-and-drop portfolio builder for designers, featuring live preview, custom domain support, and one-click Vercel deployment.",
+      "technologies": "Next.js, Dnd-kit, Vercel API, Tailwind CSS",
+      "category": "Web Apps",
+      "featured": false
+    },
+    {
+      "title": "Halo UI Kit",
+      "description": "A Figma component kit with 200+ components, auto-layout variants, and a paired Tailwind CSS token system. Downloaded 3,400+ times on the Figma Community.",
+      "technologies": "Figma, Tailwind CSS, CSS Variables",
+      "category": "UI/UX Design",
+      "featured": false
+    },
+    {
+      "title": "Beacon",
+      "description": "A lightweight, open-source feature-flag SDK for React with a dashboard UI, percentage rollouts, and A/B testing support. Zero runtime dependencies.",
+      "technologies": "React, TypeScript, Node.js, SQLite",
+      "category": "Open Source",
+      "featured": false
+    }
+  ],
+  "bio": [
+    {
+      "highlight": "200,000+ users touched by products I've shipped"
+    },
+    {
+      "highlight": "6+ years of professional full-stack development"
+    },
+    {
+      "highlight": "Contributor to open-source projects with 3,400+ GitHub stars"
+    },
+    {
+      "highlight": "Speaker at JSConf and React Summit on performance optimization"
+    },
+    {
+      "highlight": "Advocate for accessible, WCAG 2.1 AA-compliant interfaces"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Full-Stack Engineer",
+      "company": "Vercel",
+      "period": "2023–Present",
+      "description": "Leading the developer experience team building Next.js-powered internal tooling; reduced CI pipeline time by 38% across 12 product squads."
+    },
+    {
+      "role": "Full-Stack Developer",
+      "company": "Luma Labs",
+      "period": "2021–2023",
+      "description": "Architected a real-time collaboration layer for a 3D design tool using WebSockets and CRDT; scaled from 0 to 80,000 monthly active users in 18 months."
+    },
+    {
+      "role": "Frontend Engineer",
+      "company": "Stripe",
+      "period": "2019–2021",
+      "description": "Built and maintained component library used across Stripe Dashboard; improved Lighthouse accessibility score from 74 to 98 across core flows."
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Figma",
+      "period": "Summer 2018",
+      "description": "Prototyped a vector snapping algorithm that shipped in Figma 3.0; recognized as top intern project by the engineering org."
+    },
+    {
+      "role": "B.S. Computer Science",
+      "company": "UC Berkeley",
+      "period": "2015–2019",
+      "description": "Graduated with honors; thesis on adaptive rendering strategies for low-bandwidth environments."
+    }
+  ],
+  "skills-detailed": [
+    {
+      "category": "Frontend",
+      "items": "React 18, Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Radix UI, Zustand"
+    },
+    {
+      "category": "Backend",
+      "items": "Node.js, Express, tRPC, GraphQL, REST API design, WebSockets, Prisma ORM"
+    },
+    {
+      "category": "Databases",
+      "items": "PostgreSQL, PlanetScale (MySQL), Redis, Supabase, MongoDB"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": "Vercel, AWS (EC2, S3, Lambda, CloudFront), Docker, GitHub Actions, Terraform"
+    },
+    {
+      "category": "Design & Prototyping",
+      "items": "Figma, Adobe Illustrator, Framer, design systems, component documentation"
+    },
+    {
+      "category": "Testing & Quality",
+      "items": "Vitest, Playwright, Jest, React Testing Library, Storybook, Chromatic"
+    },
+    {
+      "category": "Performance",
+      "items": "Core Web Vitals optimization, bundle analysis, edge caching strategies, lazy loading"
+    },
+    {
+      "category": "Soft Skills",
+      "items": "Technical writing, async-first communication, cross-functional collaboration, mentorship"
+    }
+  ],
+  "contact-form": [
+    {
+      "field": "Name",
+      "required": true,
+      "placeholder": "Your full name or the name of your organization"
+    },
+    {
+      "field": "Email",
+      "required": true,
+      "placeholder": "A valid address where I can reach you"
+    },
+    {
+      "field": "Subject",
+      "required": true,
+      "placeholder": "e.g. Freelance Inquiry, Job Opportunity, Collaboration Idea"
+    },
+    {
+      "field": "Message",
+      "required": true,
+      "placeholder": "Tell me about your project, timeline, and any relevant details — the more context, the better"
+    },
+    {
+      "field": "Send Message",
+      "required": false,
+      "placeholder": "Submits the form and triggers a confirmation email to your inbox"
+    }
+  ],
+  "social-links": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/alexmorgan",
+      "handle": "github.com/alexmorgan",
+      "description": "Browse my open-source projects, contributions, and code experiments"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/alexmorgandev",
+      "handle": "linkedin.com/in/alexmorgandev",
+      "description": "Professional background, endorsements, and career updates"
+    },
+    {
+      "platform": "Twitter / X",
+      "url": "https://twitter.com/alexmorgandev",
+      "handle": "@alexmorgandev",
+      "description": "Thoughts on web development, design systems, and the occasional hot take"
+    },
+    {
+      "platform": "Dribbble",
+      "url": "https://dribbble.com/alexmorgandev",
+      "handle": "dribbble.com/alexmorgandev",
+      "description": "UI explorations, design concepts, and visual side projects"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:hello@alexmorgandev.com",
+      "handle": "hello@alexmorgandev.com",
+      "description": "For longer conversations or file sharing, drop me a direct email"
+    }
+  ],
+  "about": {
+    "badgeLabel": "Experience",
+    "badgeValue": "5+ Years",
+    "bioEyebrow": "About Me",
+    "bioHeading": "Designer & Developer",
+    "bioPara1": "I craft digital experiences that blend aesthetics with functionality. Specializing in web design and development, I help brands tell their stories through thoughtful, user-centered design.",
+    "bioPara2": "With a background in both design and code, I bridge the gap between creative vision and technical execution, ensuring every pixel serves a purpose.",
+    "bioPara3": "When I'm not designing, you'll find me exploring new tools, contributing to open source, or sharing knowledge with the community.",
+    "ctaButton": "Get in Touch",
+    "ctaText": "Interested in working together?",
+    "expEyebrow": "Experience",
+    "expHeading": "Professional Journey",
+    "eyebrow": "Welcome",
+    "heroHeading": "About Me",
+    "heroSubtext": "Designer, developer, and creative problem-solver based in the digital realm.",
+    "skillsEyebrow": "Skills",
+    "skillsHeading": "What I Do"
+  },
+  "contact": {
+    "availability": {
+      "description": "Open to freelance projects and full-time opportunities.",
+      "status": "Available for Work"
+    },
+    "form": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "heading": "Let's Talk",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "subheading": "Fill out the form below and I'll get back to you within 24 hours.",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "submit": "Send Message",
+      "submitting": "Sending..."
+    },
+    "hero": {
+      "badge": "Get in Touch",
+      "description": "Have a project in mind? Let's create something amazing together.",
+      "title": "Contact"
+    },
+    "location": {
+      "heading": "Location"
+    },
+    "methods": {
+      "heading": "Connect With Me"
+    },
+    "responseTime": {
+      "description": "I typically respond within 24 hours.",
+      "heading": "Response Time"
+    },
+    "social": {
+      "eyebrow": "Follow"
+    },
+    "success": {
+      "cta": "Back to Home",
+      "description": "Thanks for reaching out. I'll be in touch soon.",
+      "title": "Message Sent"
+    }
+  },
+  "projects": {
+    "card": {
+      "featured": "Featured",
+      "source": "View source",
+      "viewProject": "View project"
+    },
+    "empty": "No projects yet. Check back soon.",
+    "eyebrow": "Work",
+    "heading": "Selected projects",
+    "hero": {
+      "badge": "Latest",
+      "description": "A collection of recent work spanning design, development, and strategy.",
+      "stat": {
+        "categories": "Categories",
+        "featured": "Featured",
+        "total": "Total projects"
+      },
+      "title": {
+        "accent": "Portfolio",
+        "line1": "My recent work"
+      }
+    },
+    "view_all": "View all projects"
+  },
+  "services": {
+    "body": "I partner with brands to design and build digital products that solve real problems.",
+    "check1": "UI/UX Design",
+    "check2": "Web Development",
+    "check3": "Strategy & Consulting",
+    "eyebrow": "Services",
+    "heading": "What I offer"
+  },
+  "testimonials": {
+    "eyebrow": "Social proof",
+    "heading": "Loved by clients"
+  }
+}
